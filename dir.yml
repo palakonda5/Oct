@@ -1,0 +1,4 @@
+---
+- hosts:webservers
+    - name:creating directory
+       file:path=/root/newdir state=directory
